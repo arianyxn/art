@@ -21,7 +21,7 @@
 }
 
 .Header-nav {
-  width: 553px;
+  width: 650px; /* Увеличили ширину для новых пунктов меню */
   height: 14px;
   margin-left: 149px; /* Отступ после логотипа */
   margin-top: 38px;
