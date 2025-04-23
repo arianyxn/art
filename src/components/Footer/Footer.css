@@ -1,0 +1,96 @@
+.Footer {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #fff; /* Белый фон */
+    padding: 20px 0; /* Уменьшили отступ сверху до 20px */
+}
+
+.Footer-container {
+    width: 1120px;
+    margin: 0 40px;
+    display: flex;
+    justify-content: space-between; /* Распределяем секции */
+}
+
+.Footer-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 25px; /* Увеличили отступы между элементами */
+}
+
+.Footer-contact-item {
+    display: flex;
+    align-items: center;
+    gap: 12px; /* Увеличили отступ между иконкой и текстом */
+}
+
+.Footer-icon {
+    width: 24px; /* Размер иконки */
+    height: 24px;
+}
+
+.Footer-text {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal; /* Убрали italic */
+    font-weight: normal;
+    font-size: 14px; /* Уменьшили размер шрифта */
+    color: #333; /* Тёмно-серый вместо чёрного для мягкости */
+}
+
+.Footer-link {
+    color: #333; /* Тёмно-серый */
+    text-decoration: underline;
+    transition: color 0.3s ease; /* Плавный переход цвета */
+}
+
+.Footer-link:hover {
+    color: #666; /* Серый при наведении */
+}
+
+.Footer-about {
+    width: 340px; /* Такая же ширина, как у NewsSection-block3 */
+}
+
+.Footer-title {
+    margin: 0 0 20px 0;
+    font-family: 'Marcellus', serif;
+    font-weight: normal;
+    font-size: 18px; /* Уменьшили размер для спокойного вида */
+    color: #333; /* Тёмно-серый */
+}
+
+.Footer-description {
+    margin: 0 0 25px 0; /* Увеличили отступ снизу */
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal; /* Убрали italic */
+    font-weight: normal;
+    font-size: 14px; /* Уменьшили размер */
+    color: #333; /* Тёмно-серый */
+    line-height: 1.5; /* Увеличили межстрочный интервал для читаемости */
+}
+
+.Footer-socials {
+    display: flex;
+    gap: 20px; /* Увеличили отступы между иконками */
+}
+
+.Footer-social-icon {
+    width: 32px; /* Уменьшили размер контейнера */
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: transform 0.3s ease; /* Эффект при наведении */
+}
+
+.Footer-social-icon:hover {
+    transform: scale(1.1); /* Лёгкое увеличение при наведении */
+}
+
+.Footer-social-image {
+    width: 20px; /* Уменьшили размер иконки */
+    height: 20px;
+    object-fit: contain; /* Убедимся, что иконки масштабируются корректно */
+}
