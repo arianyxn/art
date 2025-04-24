@@ -1,18 +1,18 @@
 .Header {
-  position: fixed; /* Делаем Header фиксированным */
+  position: fixed;
   top: 0;
-  left: 50%; /* Центрируем по горизонтали */
-  transform: translateX(-50%); /* Смещаем влево на половину ширины */
+  left: 50%;
+  transform: translateX(-50%);
   width: 1200px;
   height: 90px;
   background-color: #fff;
   display: flex;
   align-items: center;
-  z-index: 1000; /* Чтобы Header был поверх других элементов */
+  z-index: 1000;
 }
 
 .Header-logo {
-  margin-left: 40px; /* Отступ слева для логотипа */
+  margin-left: 40px;
 }
 
 .Header-logo img {
@@ -21,9 +21,9 @@
 }
 
 .Header-nav {
-  width: 650px; /* Увеличили ширину для новых пунктов меню */
+  width: 650px;
   height: 14px;
-  margin-left: 149px; /* Отступ после логотипа */
+  margin-left: 149px;
   margin-top: 38px;
   margin-bottom: 38px;
   display: flex;
@@ -37,20 +37,25 @@
   font-size: 12px;
   color: #000;
   text-decoration: none;
-  margin-right: 30px; /* Отступ между ссылками */
+  margin-right: 30px;
 }
 
 .Header-nav a:last-child {
-  margin-right: 0; /* Убираем отступ у последней ссылки */
+  margin-right: 0;
 }
 
 .Header-nav a:hover {
   text-decoration: underline;
 }
 
+.Header-nav .active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 .Header-auth {
-  margin-left: auto; /* Отодвигаем "Войти/Регистрация" к правому краю */
-  margin-right: 40px; /* Отступ справа */
+  margin-left: auto;
+  margin-right: 40px;
 }
 
 .Header-auth a {
